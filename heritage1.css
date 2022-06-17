@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+section, footer, header{
+    display: block;
+}
+.footer{
+    background-color: gray;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+img{
+   width: 100%;
+   max-height: 560px;
+}
+#para {
+    color: #404040;
+    font-family: lato,sans-serif;
+    overflow-wrap: break-word;
+    font-size: 21px;
+}
+.centered{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);   
+}
+.container-home{
+    position:relative;
+    text-align:center;
+    color:white;
+    font-size:60px;
+    font-weight:bold;
+}
+#copy {
+    text-align: right;
+}
+/* Navigation Bar */
+.logo {
+    display: flex;
+    color: #003462;
+    font-size: 65px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family:link rel="preconnect" href="https://fonts.googleapis.com"
+    link rel="preconnect" href="https://fonts.gstatic.com" crossorigin
+    link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet";
+    
+    background:  rgba(255, 255, 255, 0.9);
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.navM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    /*box-shadow: 0 1px 8px #ddd;*/
+    background: rgba(255, 255, 255, 0.9);
+    font-family: lato,sans-serif;
+}
+
+.navM li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.navM a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+.navM a:hover {
+    color: plum;
+}
+/*Heritage 1*/
+
+.Sigiriya-main {
+    width: 80%;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+
+.sigiriya-intro-h1 {
+    color: #003462;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: playfair display,georgia,times new roman,serif;
+    text-align: center
+}
+
+.sig-art-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sig-water-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+}
+
+.stair-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+.slide-top {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.slide-top {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+ @-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
+@media only screen and (max-width: 1000px){
+    .stair-grid {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 15px;
+    }
+    .centered{
+        font-size: 15px;
+    }
+        
+}
+
+ @-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
+@media only screen and (max-width: 1000px){
+    .stair-grid {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 15px;
+    }
+    .centered{
+        font-size: 15px;
+    }
+        
+}
